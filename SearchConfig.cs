@@ -1,10 +1,5 @@
-﻿using Newtonsoft.Json;
+using Newtonsoft.Json;
 using System;
-
-//using System.Runtime.Serialization;
-using System.Text.Json;
-using System.Text.Json.Serialization;
-//using System.Text.Json.Serialization;
 
 public class Rootobject
 {
@@ -18,16 +13,12 @@ public class Rootobject
 
 public class LogSearchConfig
 {
-   // [JsonProperty(Required = Required.Always)]
-   [JsonInclude]
-    public string LogPath { get; set; }
+   [JsonProperty(Required = Required.Always)]
+   public string LogPath { get; set; }
 
-    //[JsonProperty(Required = Required.Always)]
-    [JsonInclude]
-    public string TextFileExtenstion { get; set; }
+   [JsonProperty(Required = Required.Always)]
+   public string TextFileExtenstion { get; set; }
 
-    //[JsonProperty(Required = Required.DisallowNull)]
-    public string StringToSearch { get; set; }
-
-    public object FileContents { get; private set; }
+   [JsonProperty(Required = Required.DisallowNull)]
+   public string StringToSearch { get; set; }
 }
