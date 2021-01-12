@@ -1,0 +1,7 @@
+{
+  "LogSearchConfig": {
+    "LogPath": "\\azlabslogs.redmond.corp.microsoft.com\\MAS_CI\\MASCILogs\\17763.10021.191223-1900-MAS_Prod_1.2011.0.64\\0832a95d-deb1-b0ef-bc9b-148a92acbe1f-12-29-2020-03.23.34",
+    "TextFileExtenstion": "*.txt,*.xml,*.log",
+    "StringToSearch": "Exception"
+  }
+}
